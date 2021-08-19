@@ -9,8 +9,8 @@ For this weeks homework creating a weather dashboard.
 5) refresh to look for new city
 
 ## Links
-* https://aaron8907.github.io/Homework05/
-* https://github.com/Aaron8907/Homework05
+* https://aaron8907.github.io/Homework06/
+* https://github.com/Aaron8907/Homework06
  
 Sceenshot of website:
 
