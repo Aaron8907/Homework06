@@ -25,7 +25,7 @@ for(var i = 0; i <5; i++) {
     previousSearchesBtn.attr("name",initialCities[i]);
     previousSearches2.addClass("m-3");
     previousSearches2.addClass("container-fluid");
-    previousSearches2.addClass("btn-lg");
+    previousSearches2.addClass("btn-block");
     previousSearches2.addClass("align-items-center");
     previousSearchesBtn.css("height","30px")
     previousSearchesBtn.css("width","320px")
