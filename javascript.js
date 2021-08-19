@@ -36,7 +36,7 @@ submitBtn.on("click",function(){
     
     city=localStorage.setItem("city", $('input[name="city"]').val());
     cityStorage=localStorage.getItem("city");
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + localStorage.city +"&units=metric&appid=" + APIKey;
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + localStorage.city +"&units=metric&appid=" + APIKey;
 
     
 
