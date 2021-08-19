@@ -22,9 +22,13 @@ for(var i = 0; i <5; i++) {
     var spacing=$("<br>");
     previousSearchesBtn.attr("type","button");
     previousSearchesBtn.text(initialCities[i]);
+    previousSearchesBtn.attr("name",initialCities[i]);
     previousSearches2.addClass("m-3");
+    previousSearches2.addClass("container-fluid");
+    previousSearches2.addClass("btn-lg");
+    previousSearches2.addClass("align-items-center");
     previousSearchesBtn.css("height","30px")
-    previousSearchesBtn.css("width","90px")
+    previousSearchesBtn.css("width","320px")
     previousSearchesBtn.css("padding","10px")
     previousSearchesBtn.css("line-height","5px")
     previousSearchesBtn.css("margin","0px")
@@ -124,7 +128,7 @@ submitBtn.on("click",function(){
         var pop=initialCities.push(cityStorage)
  
 
-        previousSearches2.remove();
+        
 
         updateCities()
          
@@ -181,12 +185,11 @@ submitBtn.on("click",function(){
           rootEl.append(picture);
        
       })
-
+      
 })
 
 function updateCities() {
-
-  
+  previousSearches2.remove();
 for(var i = 0; i <5; i++) {
  
   var previousSearchesBtn= $("<button>");
@@ -195,14 +198,18 @@ for(var i = 0; i <5; i++) {
   previousSearchesBtn.attr("type","button");
   previousSearchesBtn.text(initialCities[i]);
   previousSearches.addClass("m-3");
+  previousSearches.addClass("btn-lg");
+  previousSearches.addClass("btn-block");
   previousSearchesBtn.css("height","30px")
-  previousSearchesBtn.css("width","90px")
+  previousSearchesBtn.css("width","320px")
   previousSearchesBtn.css("padding","10px")
   previousSearchesBtn.css("line-height","5px")
   previousSearchesBtn.css("margin","0px")
   previousSearches.append(previousSearchesBtn)   
   previousSearches.append(spacing);
+  
 }
+  
   
 }
 
